@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+ <CraftingPiece id="aserai_noble_blade_6"
+                 name="{=xYgJN0Ja}Decorated Scimitar Blade"
+                 tier="5"
+                 piece_type="Blade"
+                 mesh="aserai_noble_blade_6"
+                 culture="Culture.aserai"
+                 length="88.77"
+                 weight="0.89">    
+  </CraftingPiece>
+  <CraftingPiece id="aserai_noble_blade_4"
+                 name="{=xYgJN0Ja}Decorated Scimitar Blade"
+                 tier="5"
+                 piece_type="Blade"
+                 mesh="aserai_noble_blade_4"
+                 culture="Culture.aserai"
+                 length="87.4"
+                 weight="1.0">
+  </CraftingPiece>
+  <!-- 1.0.6 -->
+  <CraftingPiece id="axe_craft_7_handle"
+                 name="{=xKGpbQjJ}Long Mahogany Shaft With Leather Wrapping"
+                 tier="4"
+                 piece_type="Handle"
+                 mesh="axe_craft_7_handle"
+                 length="124.3"
+                 weight="0.570"
+                 excluded_item_usage_features="widegrip">
+		<BuildData piece_offset="30" 
+		previous_piece_offset="3.5"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_3"
+                 name="{=V3JMuFEg}Tied Mace Handle"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="mace_handle_3"
+                 length="60"
+                 weight="0.440"
+                 CraftingCost="75">
+		<BuildData piece_offset="13"
+		previous_piece_offset="2"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_20"
+                 name="{=NehOioZp}Iron Reinforced Two Handed Mace Handle"
+                 tier="4"
+                 piece_type="Handle"
+                 mesh="mace_handle_20"
+                 length="133.2"
+                 weight="0.540"
+                 item_holster_pos_shift="0,0,-0.05"
+                 CraftingCost="75">
+		<BuildData piece_offset="19.3"
+		previous_piece_offset="1.7"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_18"
+                 name="{=xa3vFv52}Iron Topped Two Handed Mace Handle"
+                 tier="3"
+                 piece_type="Handle"
+                 mesh="mace_handle_18"
+                 length="124"
+                 weight="0.420"
+                 CraftingCost="75">
+    <BuildData piece_offset="15" previous_piece_offset="1.7"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_19"
+                 name="{=OwA6LLeY}Leather Wrapped Two Handed Mace Handle"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="mace_handle_19"
+                 length="124.2"
+                 weight="0.440"
+                 CraftingCost="75">
+    <BuildData piece_offset="13" previous_piece_offset="1.7"/>
+  </CraftingPiece>
+  <CraftingPiece id="axe_craft_29_handle"
+                 name="{=Qqb0VZ1a}Leather Wrapped Two Handed Ash Shaft"
+                 tier="3"
+                 piece_type="Handle"
+                 mesh="axe_craft_29_handle"
+                 length="120"
+                 weight="0.516">
+    <BuildData piece_offset="35"
+               next_piece_offset="1.835" 
+			   previous_piece_offset="-3.7"/>
+  </CraftingPiece>
+  <CraftingPiece id="axe_craft_10_handle"
+                 name="{=l13RibeF}Steel Reinforced Great Axe Handle"
+                 tier="4"
+                 piece_type="Handle"
+                 mesh="axe_craft_10_handle"
+                 length="132"
+                 weight="0.793"
+                 excluded_item_usage_features="widegrip">
+    <BuildData piece_offset="28.87"
+               next_piece_offset="2.5" 
+			   previous_piece_offset="-1"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_6"
+                 name="{=87BmkiMO}Gnarled Mace Handle"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="mace_handle_6"
+                 length="56.2"
+                 weight="0.420"
+                 CraftingCost="75">
+    <BuildData piece_offset="15" 
+	previous_piece_offset="1"/>
+  </CraftingPiece>
+  <CraftingPiece id="axe_craft_32_handle"
+                 name="{=ibU7mZKx}Ash Great Axe Shaft"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="axe_craft_32_handle"
+                 length="150"
+                 weight="0.816">
+    <BuildData piece_offset="20"
+               next_piece_offset="1.835" 
+			   previous_piece_offset="0.5"/>
+  </CraftingPiece>
+  <CraftingPiece id="sickle_handle_1"
+                 name="{=0kP9bf7n}Sickle Handle"
+                 tier="2"
+                 piece_type="Handle"
+                 mesh="sickle_handle_1"
+                 length="32.8"
+                 weight="0.340"
+                 item_holster_pos_shift="0,0,0.1"
+                 CraftingCost="75">
+    <BuildData piece_offset="13.7" 
+	previous_piece_offset="1"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_4"
+                 name="{=9HMxA4AU}Iron Mace Handle"
+                 tier="3"
+                 piece_type="Handle"
+                 mesh="mace_handle_4"
+                 length="61"
+                 weight="1.125"
+                 item_holster_pos_shift="0,0,-0.05"
+                 CraftingCost="90">
+    <BuildData piece_offset="20" 
+	previous_piece_offset="2"/>
+  </CraftingPiece>
+  <CraftingPiece id="mace_handle_7"
+                 name="{=bfE00BnK}Iron Pommeled Mace Handle"
+                 tier="3"
+                 piece_type="Handle"
+                 mesh="mace_handle_7"
+                 length="62.1"
+                 weight="0.720"
+                 item_holster_pos_shift="0,0,-0.05"
+                 CraftingCost="80">
+    <BuildData piece_offset="17.5" 
+	previous_piece_offset="1"/>
+  </CraftingPiece>
+    <CraftingPiece id="mace_handle_5"
+                 name="{=4VIUHmbP}Decorated Steel Mace Handle"
+                 tier="4"
+                 piece_type="Handle"
+                 mesh="mace_handle_5"
+                 length="61"
+                 weight="1.245"
+                 item_holster_pos_shift="0,0,-0.1"
+                 CraftingCost="90">
+    <BuildData piece_offset="23" 
+	previous_piece_offset="1"/>
+  </CraftingPiece>
+  <CraftingPiece id="axe_craft_31_handle"
+                 name="{=J3ADekEw}Oaken Great Axe Shaft"
+                 tier="4"
+                 piece_type="Handle"
+                 mesh="axe_craft_31_handle"
+                 length="140"
+                 weight="0.516">
+    <BuildData piece_offset="20"
+               next_piece_offset="1.835" 
+			   previous_piece_offset="0.2"/>
+  </CraftingPiece>
+</CraftingPieces>

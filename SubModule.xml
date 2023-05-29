@@ -1,0 +1,42 @@
+<Module>
+     <Name value="WeaponGapFix"/>
+     <Id value="WeaponGapFix"/>
+     <Version value="v1.0.7"/>
+	 <Official value="false" />
+	 <DefaultModule value="false" />
+     <SingleplayerModule value="true"/>
+     <MultiplayerModule value="false"/>
+     <DependedModules>
+		<DependedModule Id="Bannerlord.Harmony" />
+         <DependedModule Id="Native"/>
+         <DependedModule Id="SandBoxCore"/>
+         <DependedModule Id="Sandbox"/>
+         <DependedModule Id="StoryMode" />
+    </DependedModules>
+	<DependedModuleMetadatas>
+		<DependedModuleMetadata id="Bannerlord.Harmony" order="LoadBeforeThis" version="v2.2.2" />
+		<DependedModule Id="Native" DependentVersion="v1.0.1" Optional="false"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.0.1" Optional="false"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.0.1" Optional="false"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.0.1" Optional="false"/>
+  </DependedModuleMetadatas>
+     <SubModules>
+         <SubModule>
+             <Name value="GapFix"/>
+             <DLLName value="GapFix.dll"/>
+             <SubModuleClassType value="GapFix.Main"/>
+             <Tags>
+             </Tags>
+         </SubModule>
+     </SubModules>
+	 <Xmls>
+	 <XmlNode>
+		<XmlName id="CraftingPieces" path="WeaponGap_XML_fixes"/>
+		<IncludedGameTypes>
+			<Gametype value = "Campaign"/>
+			<Gametype value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	 </XmlNode>
+     </Xmls>
+ </Module>
