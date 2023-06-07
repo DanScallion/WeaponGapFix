@@ -1,6 +1,8 @@
 # WeaponGapFix
 
 HOW DOES THIS WORK?
+Through a comprehensive exploration of the game's codebase using DNspy, I skillfully navigated the intricate landscape of the developers programming craftsmanship. My diligent efforts paid off as I successfully identified and located the elusive bug, demonstrating my proficiency in analyzing complex code structures and my unwavering commitment to ensuring a seamless gaming experience.
+
 Weapon gap happened because every time you crafted weapon it changed its scale to scale you choose and then changed spacing between parts, then again it changed it back to 100 overwriting it. I removed that line by using harmony transpiler to ignore that instruction at runtime. 
 It also fixes bug that broke weapon crafting history which resulted in your "previiously crafter" weapons to not save weapon size data. It also fixes bug that caused weapons to revert to default 100% on game/save reload.
 
